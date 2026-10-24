@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="328" viewBox="0 0 1200 328" role="img" aria-labelledby="title desc">
+  <title id="title">Caleb Stewart — building for people, not just screens</title>
+  <desc id="desc">Dark navy graphic with Caleb's name, a people-first software engineering tagline, a minimalist New York skyline and abstract teal market line.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1728"/>
+      <stop offset=".64" stop-color="#0D1D30"/>
+      <stop offset="1" stop-color="#0E2235"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="90%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#125C65" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#125C65" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#39BEAF"/>
+      <stop offset="1" stop-color="#8FEAE0"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E4859"/>
+      <stop offset="1" stop-color="#143043"/>
+    </linearGradient>
+    <pattern id="finegrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 H0 V32" fill="none" stroke="#B3DDE2" stroke-width=".6" opacity=".09" />
+    </pattern>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="328" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="328" fill="url(#background)"/>
+    <rect width="1200" height="328" fill="url(#glow)"/>
+    <rect width="1200" height="328" fill="url(#finegrid)"/>
+
+    <!-- Clean, typographic left half -->
+    <rect x="56" y="55" width="3" height="220" rx="1.5" fill="#56D6C6"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="82" y="78" font-size="13" font-weight="700" letter-spacing="3.2" fill="#69D7CE">NEW YORK <tspan fill="#91A9BB"> / </tspan> AUBURN</text>
+      <text x="78" y="158" font-size="69" font-weight="700" letter-spacing="-2.4" fill="#F4F7FB">Caleb Stewart</text>
+      <text x="81" y="210" font-size="23" font-weight="400" fill="#CFDBE6">Building for people, not just screens.</text>
+      <rect x="82" y="236" width="62" height="2.5" rx="1" fill="#62D5C7"/>
+      <text x="82" y="269" font-size="13" font-weight="700" letter-spacing="2.0" fill="#9AB2C6">SOFTWARE <tspan fill="#54CBBF">·</tspan> FINTECH <tspan fill="#54CBBF">·</tspan> BLOCKCHAIN</text>
+    </g>
+
+    <!-- Architectural guide and skyline on right: graphic rather than a photo -->
+    <line x1="714" y1="49" x2="714" y2="277" stroke="#7299A5" stroke-width="1" stroke-opacity=".14"/>
+    <g stroke="#70BDC3" stroke-opacity=".12" fill="none" stroke-width="1">
+      <line x1="748" y1="110" x2="1144" y2="110"/>
+      <line x1="748" y1="155" x2="1144" y2="155"/>
+      <line x1="748" y1="200" x2="1144" y2="200"/>
+      <line x1="748" y1="245" x2="1144" y2="245"/>
+    </g>
+    <!-- Skyline layers, including recognizable stepped crowns and tall spires -->
+    <path d="M729 260 V222 H751 V189 H772 V209 H790 V176 H813 V203 H836 V164 H853 V190 H876 V224 H900 V166 H912 V148 H924 V166 H944 V216 H964 V190 H984 V214 H1003 V184 H1026 V230 H1045 V176 H1062 V206 H1078 V165 H1098 V200 H1120 V187 H1143 V223 H1160 V260 Z" fill="#1D4051" opacity=".54"/>
+    <path d="M750 273 V237 H777 V196 H794 V186 H804 V196 H820 V233 H834 V195 H849 V187 H863 V194 H869 V234 H889 V222 H903 V155 H914 V149 H918 V140 H922 V149 H932 V155 H944 V230 H965 V235 H984 V175 H998 V170 H1004 V156 H1010 V170 H1021 V175 H1027 V230 H1041 V224 H1055 V138 H1061 V108 H1065 V138 H1074 V223 H1098 V207 H1123 V187 H1140 V238 H1161 V273 Z" fill="url(#tower)" stroke="#356577" stroke-width="1" stroke-opacity=".6"/>
+    <!-- The market trace is conceptual, not based on asset prices -->
+    <path d="M751 222 L784 229 L812 205 L839 210 L867 178 L897 192 L927 163 L951 171 L981 145 L1011 159 L1042 125 L1071 133 L1097 104 L1127 113" fill="none" stroke="#37CBB7" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-opacity=".10"/>
+    <path d="M751 222 L784 229 L812 205 L839 210 L867 178 L897 192 L927 163 L951 171 L981 145 L1011 159 L1042 125 L1071 133 L1097 104 L1127 113" fill="none" stroke="url(#trace)" stroke-width="3.1" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="927" cy="163" r="3.6" fill="#88EFE0" stroke="#0D2534" stroke-width="2"/>
+    <circle cx="1042" cy="125" r="3.6" fill="#88EFE0" stroke="#0D2534" stroke-width="2"/>
+    <circle cx="1127" cy="113" r="5" fill="#97F8E8" stroke="#123748" stroke-width="2"/>
+    <path d="M1091 100 L1127 113 L1114 81" fill="none" stroke="#75DCD2" stroke-opacity=".15" stroke-width="1"/>
+    <rect x="749" y="258" width="397" height="1" fill="#72C6CB" opacity=".16"/>
+    <g font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#85B2B7">
+      <text x="749" y="286">PEOPLE</text>
+      <text x="852" y="286">/</text>
+      <text x="876" y="286">PRODUCT</text>
+      <text x="994" y="286">/</text>
+      <text x="1018" y="286">MARKETS</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="327" rx="17.5" fill="none" stroke="#2D4B5A" stroke-opacity=".9"/>
+</svg>
