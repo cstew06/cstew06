@@ -13,7 +13,7 @@
 
 <br />
 
-## Hey, I'm Caleb 👋
+## Hey, I'm Caleb
 
 I'm a computer science student at **Auburn University**, originally from **New York**. I like being at the intersection of **software, people, and business**.
 
@@ -54,7 +54,7 @@ A personal project exploring a better way to bring together portfolio tracking, 
 
 ## Away from the keyboard
 
-You'll usually find me **following markets, lifting, or meeting people with different interests and backgrounds**. I like learning how businesses and industries work, and I think those conversations make me better at building software for the people who use it.
+You'll usually find me **following markets, lifting, DJing, or meeting people with different interests and backgrounds**. I like learning how businesses and industries work, and I think those conversations make me better at building software for the people who use it.
 
 ---
 
